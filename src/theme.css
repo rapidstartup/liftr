@@ -1,0 +1,70 @@
+:root {
+    --background-color: #ecf1f4;
+    --text-color: #5d7389;
+    --main-color: #ecf1f4;
+    --main-header: #fff;
+    --btn-color: #ccd6e0;
+    --textarea-color: #fff;
+    --logininput-color: #eee;
+    --logintext-color: #000;
+    --input-background: #fff;
+    --chat-background: #e8e8e8;
+    --card-color: #fff;
+    --comments-bg: #f4f4f4;
+    scrollbar-color: var(--background-color) rgb(46,54,69) !important;
+    scrollbar-width: thin !important;
+    --dashboard-header-bg: #e2e8f0;
+    --dashboard-header-border: #000;
+
+    --card-border: #000;
+    --card-bg: #fff;
+    --card-text: #000;
+    --card-header-bg: #e2e8f0;
+    --card-text-label: #545454;
+    --card-text-value: #333333;
+    --card-input-bg: #f4f4f4;
+
+    --chat-container-border: #000;
+    --chat-container-header-bg: #e2e8f0;
+    --chat-container-nested-border: #000;
+    --chat-container-input-bg: #efefef;
+    --chat-container-incoming-chat-bg: #efefef;
+    --chat-container-odd-row-bg: #fafafa;
+    --chat-main-bg: #fff;
+}
+
+[data-theme="darkMode"] {
+    --background-color: #1a1d21;
+    --text-color: white;   
+    --main-color: #1b1d21;
+    --main-header: #000;
+    --btn-color: #415262;
+    --textarea-color: #1a232d;
+    --logininput-color: #1a232d;
+    --logintext-color: #fff;
+    --input-background: #27333f;
+    --chat-background: #1c222d;
+    --card-color: #202020;
+    --comments-bg: #393939;
+    scrollbar-color: var(--background-color) rgb(46,54,69) !important;
+    scrollbar-width: thin !important;
+    --dashboard-header-bg: #000;
+    --dashboard-header-border: #15e7fb;
+
+    --card-border: #545454;
+    --card-bg: #000;
+    --card-text: #fff;
+    --card-header-bg: #171717;
+    --card-text-label: #15e7fb;
+    --card-text-value: #d1d1d1;
+    --card-input-bg: #202020;
+
+    --chat-container-border: #15E7FB;
+    --chat-container-header-bg: #171717;
+    --chat-container-nested-border: #333333;
+    --chat-container-input-bg: #171717;
+    --chat-container-incoming-chat-bg: #333333;
+    --chat-container-odd-row-bg: #202020;
+
+    --chat-main-bg: #000;
+}
